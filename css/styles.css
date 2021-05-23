@@ -99,14 +99,12 @@ body {
   justify-content: center;
   align-items: center;
   fill: #757575;
+  margin-left: 50px;
 }
 .contact-icon {
   margin-right: 10px;
 }
 
-.contact-list-mail {
-  margin-right: 50px;
-}
 .contact-list .link {
   font-weight: 500;
   font-size: 14px;
@@ -118,13 +116,14 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.contact-list .link:hover,
-.contact-list .link:focus {
+
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
-.contact-link-item:hover,
-.contact-link-item:focus {
-  fill: var(--accent-color);
+.contact-link:hover .contact-icon,
+.contact-lik:focus {
+  fill: currentColor;
 }
 
 /* Герой */
@@ -472,4 +471,10 @@ footer {
   border-top: 0;
   box-sizing: border-box;
   padding: 20px 24px;
+}
+
+.portfolio-list-img:hover,
+.portfolio-list-img:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
