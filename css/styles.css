@@ -122,7 +122,7 @@ body {
   color: var(--accent-color);
 }
 .contact-link:hover .contact-icon,
-.contact-lik:focus {
+.contact-link:focus .contact-icon {
   fill: currentColor;
 }
 
